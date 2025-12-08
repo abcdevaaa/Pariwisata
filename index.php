@@ -477,6 +477,12 @@
             padding: 0 20px;
         }
 
+        .footer-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
         .footer-info p {
             color: #bbb;
             margin-bottom: 8px;
@@ -632,8 +638,8 @@
             </a>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Destination</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="destinasi.php">Destination</a></li>
             </ul>
             <ul class="button">
                 <li><a href="#" class="login-btn">Login</a></li>
@@ -831,10 +837,16 @@
 
         <div class="footer-bottom">
             <div class="footer-info">
-                <p><strong>SMKN 1 Purbalingga</strong></p>
-                <p>Jl. Mayor Jend. Sungkono No.34, Selabaya, Kec. Kalimanah, Kabupaten Purbalingga, Jawa Tengah 53371</p>
-                <p><strong>Email Address:</strong> pstonpapuabarat@gmail.com</p>
-                <p><strong>Contact:</strong> 812-3456-7890</p>
+                <div>
+                    <p><strong>SMKN 1 Purbalingga</strong></p>
+                    <p>Jl. Mayor Jend. Sungkono No.34, Selabaya, Kec. Kalimanah, Kabupaten Purbalingga, Jawa Tengah 53371</p>
+                </div>
+                <div>
+                    <p><strong>Email Address:</strong></p>
+                    <p>pstonpapuabarat@gmail.com</p>
+                    <p><strong>Contact:</strong></p>
+                    <p>813-3455-7800</p>
+                </div>
             </div>
         </div>
 
