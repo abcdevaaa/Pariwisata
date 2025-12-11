@@ -670,23 +670,19 @@
                     </div>
                     <div class="category-circle">
                         <i class="fas fa-water"></i>
-                        <span>Laut</span>
+                        <span>Pantai</span>
                     </div>
                     <div class="category-circle">
                         <i class="fas fa-waterfall"></i>
                         <span>Air Terjun</span>
                     </div>
                     <div class="category-circle">
+                        <i class="fas fa-water"></i>
+                        <span>Danau</span>
+                    </div>
+                    <div class="category-circle">
                         <i class="fas fa-landmark"></i>
                         <span>Sejarah</span>
-                    </div>
-                    <div class="category-circle">
-                        <i class="fas fa-utensils"></i>
-                        <span>Kuliner</span>
-                    </div>
-                    <div class="category-circle">
-                        <i class="fas fa-hotel"></i>
-                        <span>Penginapan</span>
                     </div>
                 </div>
             </section>
@@ -705,7 +701,6 @@
                             <h3 class="spot-title">Pulau Wayag</h3>
                             <div class="spot-location">
                                 <div>Raja Ampat</div>
-                                <!-- <div class="location-detail">Keindahan alam Raja Ampat</div> -->
                             </div>
                             <div class="rating">
                                 <i class="fas fa-star"></i>
@@ -728,7 +723,7 @@
                             <h3 class="spot-title">Kepulauan Painemo</h3>
                             <div class="spot-location">
                                 <div>Raja Ampat</div>
-                                <!-- <div class="location-detail">Surga Bawah Laut</div> -->
+                                
                             </div>
                             <div class="rating">
                                 <i class="fas fa-star"></i>
@@ -751,7 +746,6 @@
                             <h3 class="spot-title">Air Terjun Kiti Kiti</h3>
                             <div class="spot-location">
                                 <div>Fakfak</div>
-                                <!-- <div class="location-detail">Fakfak</div> -->
                             </div>
                             <div class="rating">
                                 <i class="fas fa-star"></i>
@@ -774,7 +768,6 @@
                             <h3 class="spot-title">Danau Anggi</h3>
                             <div class="spot-location">
                                 <div>Pegunungan Arfak</div>
-                                <!-- <div class="location-detail">Danau Alami</div> -->
                             </div>
                             <div class="rating">
                                 <i class="fas fa-star"></i>
@@ -799,7 +792,6 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Destination</a></li>
-                    <li><a href="#">Review</a></li>
                     <li><a href="#">About Us</a></li>
                 </ul>
             </div>
