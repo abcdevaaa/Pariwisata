@@ -602,7 +602,6 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="destinasi.php">Destination</a></li>
-                    <li><a href="#">Review</a></li>
                 </ul>
             </div>
 
@@ -658,15 +657,12 @@
     </footer>
 
     <script>
-        // Script untuk memastikan background gambar berfungsi dengan baik
         document.addEventListener('DOMContentLoaded', function() {
             const heroBg = document.getElementById('heroBg');
             const bgImage = new Image();
             
-            // Path ke file Pasir Timbul di folder img
             const localImagePath = 'img/Pasir Timbul (1).jpg';
             
-            // Load background image
             bgImage.src = localImagePath;
             
             bgImage.onload = function() {
@@ -677,7 +673,6 @@
             bgImage.onerror = function() {
                 console.log('Pasir Timbul (1) not found, trying alternative');
                 
-                // Coba alternatif file Pasir Timbul lainnya
                 const alternativePaths = [
                     'img/Pasir Timbul (2).jpg',
                     'img/Pasir Timbul.jpg',
@@ -687,8 +682,7 @@
                     'img/danauAnggi.jpg',
                     'img/kiti kiti.jpeg'
                 ];
-                
-                // Coba semua alternatif
+               
                 let loaded = false;
                 for (let i = 0; i < alternativePaths.length; i++) {
                     const testImage = new Image();
@@ -702,8 +696,7 @@
                     };
                 }
             };
-            
-            // Efek scroll pada navbar seperti di index.php
+          
             window.addEventListener('scroll', function() {
                 const header = document.querySelector('header');
                 if (window.scrollY > 50) {
@@ -715,12 +708,11 @@
                 }
             });
             
-            // Fallback jika logo gagal dimuat
             const logoImg = document.querySelector('.logo-img');
             logoImg.addEventListener('error', function() {
                 console.log('Logo gagal dimuat');
                 this.style.display = 'none';
-                // Tampilkan placeholder jika logo gagal
+               
                 const logoPlaceholder = document.createElement('div');
                 logoPlaceholder.className = 'logo-placeholder';
                 logoPlaceholder.textContent = 'PB';
